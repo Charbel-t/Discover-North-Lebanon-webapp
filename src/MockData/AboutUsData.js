@@ -39,8 +39,8 @@ export const teamMembers = [
     name: 'Hiba AbdelKarim',
     specialization: 'Front-End Web Developer',
     url: {
-      github: 'https://github.com',
-      linkedin: 'https://www.linkedin.com',
+      github: 'https://github.com/harkibit',
+      linkedin: 'https://www.linkedin.com/in/hiba-abdel-karim/',
       twitter: 'https://www.twitter.com',
     },
   },
@@ -59,8 +59,8 @@ export const teamMembers = [
     name: 'AbdelRaouf Dannaoui',
     specialization: 'Front-End Web Developer',
     url: {
-      github: 'https://github.com',
-      linkedin: 'https://www.linkedin.com',
+      github: 'https://github.com/RaoufDannaoui1',
+      linkedin: 'https://www.linkedin.com/abdelraouf-dannaoui',
       twitter: 'https://www.twitter.com',
     },
   },
@@ -69,8 +69,8 @@ export const teamMembers = [
     name: 'Maryam AbdelKarim',
     specialization: 'Front-End Web Developer',
     url: {
-      github: 'https://github.com',
-      linkedin: 'https://www.linkedin.com',
+      github: 'https://github.com/MaryamAK7',
+      linkedin: 'https://www.linkedin.com/in/maryam-abdel-karim-9548771bb',
       twitter: 'https://www.twitter.com',
     },
   },
@@ -79,8 +79,8 @@ export const teamMembers = [
     name: 'Charbel Tarrazi',
     specialization: 'Front-End Web Developer',
     url: {
-      github: 'https://github.com',
-      linkedin: 'https://www.linkedin.com',
+      github: 'https://github.com/Charbel-t',
+      linkedin: 'https://www.linkedin.com/in/charbelt',
       twitter: 'https://www.twitter.com',
     },
   },

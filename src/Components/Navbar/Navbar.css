@@ -1,0 +1,36 @@
+.logo {
+  width: 50px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+#navbar-header-style {
+  color: #001c84;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerStyleCenter {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.headerStyleCenter .navbar-items {
+  color: #001c84;
+}
+.languages-toggle-lr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-bottom: 1px solid #f0f0f0;
+  width: 15%;
+  color: #001c84;
+}
+
+#langButton {
+  margin: 0 15px;
+}

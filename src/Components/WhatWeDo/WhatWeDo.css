@@ -1,0 +1,48 @@
+.iconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+  align-content: center;
+}
+
+.iconStyle {
+  width: 110px;
+  height: 80px;
+  align-self: center;
+}
+.part {
+  display: flex;
+  width: 400px;
+  margin: 10px 15px;
+}
+
+.texts {
+  margin-left: 15px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #001c84;
+}
+
+p {
+  font-size: 0.9rem;
+  color: rgba(69, 90, 100, 0.8);
+}
+.responsive-styling {
+  display: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #ececec;
+}
+
+@media (max-width: 600px) {
+  .responsive-styling {
+    display: block;
+  }
+  .iconContainer {
+    display: none;
+  }
+}

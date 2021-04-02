@@ -1,0 +1,13 @@
+.home-city-card {
+  width: 85%;
+  height: 300px;
+  margin: auto;
+  border-radius: 5px;
+}
+.home-city-card img {
+  height: 250px;
+  object-fit: cover;
+}
+.card-font-c {
+  color: #001c84;
+}

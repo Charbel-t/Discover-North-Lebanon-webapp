@@ -1,0 +1,139 @@
+.color {
+  color: #001c84;
+}
+.text-color {
+  color: rgb(88, 88, 88);
+}
+.single-city-title {
+  margin: 0 auto;
+  font-size: 32px;
+  padding-bottom: 50px;
+  margin-top: -60px;
+  width: fit-content;
+  color: #001c84;
+}
+.gallery-container {
+  width: 88vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 3vw);
+  grid-gap: 15px;
+  margin-bottom: 20px;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.gallery__img:hover {
+  box-shadow: 0 4px 8px 0 rgba(196, 165, 165, 0.1),
+    0 6px 20px 0 rgba(105, 105, 105, 0.09);
+  transition: 1s ease;
+  cursor: pointer;
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--4 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gallery__item--5 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.single-city-cards {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 10px;
+  grid-gap: 15px;
+}
+.card-item {
+  margin: 10px;
+}
+.card-col {
+  max-width: 100%;
+}
+.take-me-there {
+  margin: auto;
+}
+.seemore-btn {
+  border-radius: 10px;
+  margin: auto !important;
+  height: 50px;
+  width: 190px;
+  font-size: 20px;
+}
+.iconStyle {
+  width: 65px;
+}
+.icon-text {
+  color: #001c84;
+}
+.hire-box {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+  text-align: center;
+  border: 1px solid #f1f3f4;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 40vh;
+}
+.hire-btn {
+  height: 30px;
+}
+.hire-box-text {
+  align-self: center;
+}
+.tourGuide-image {
+  margin: 0px;
+  width: 100%;
+  border-radius: 0 10px 10px 0;
+  height: 40vh;
+}
+.hire-box-img {
+  padding: 0px;
+  margin: 0px;
+  height: 40vh;
+}
+.card-p-link {
+  color: rgb(163, 163, 163);
+}
+.card-p-link:hover {
+  color: blue;
+}
+.a-name-c {
+  color: #001c84;
+}

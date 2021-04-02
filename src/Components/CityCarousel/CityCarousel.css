@@ -1,0 +1,91 @@
+.cities-carousel {
+  background-color: blue;
+}
+.city-car-container {
+  position: relative;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  height: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.close-icon {
+  color: #091945 !important;
+}
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.row {
+  height: 20%;
+  display: flex;
+  width: 870px;
+  margin: 60px 0 -20px -23px;
+}
+.demo {
+  opacity: 0.8;
+  object-fit: cover;
+}
+.demo:hover {
+  opacity: 1;
+}
+.big-pic-row {
+  margin: auto;
+  height: 400px;
+  width: 850px;
+  margin-left: -24px;
+}
+.column {
+  width: 20%;
+  margin: 0px;
+}
+
+.small-pic {
+  padding: 20px 0 -20px 0;
+  max-width: 150px;
+  min-height: 125px;
+  border-radius: 5px;
+}
+.city-car-img {
+  width: 99.9%;
+  height: 110%;
+  margin-top: -25px;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ant-modal-content {
+    height: 100vh;
+    width: 75vw;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ant-modal-content {
+    height: 50vh;
+    width: 100vw;
+    margin: auto;
+  }
+}

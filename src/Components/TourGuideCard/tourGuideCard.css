@@ -1,0 +1,71 @@
+.tour-guide-card {
+  width: 87%;
+  height: 10%;
+  display: flex;
+  color: #021b77;
+}
+.rowheight {
+  height: 100%;
+}
+.imgProp {
+  width: 17rem;
+  height: 14rem;
+  object-fit: cover;
+  margin: 20px;
+}
+.col-align {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.icon-size {
+  font-size: 30px;
+}
+.icon-size:hover {
+  cursor: pointer;
+}
+.skeleton-container {
+  align-self: flex-start;
+  width: 100%;
+}
+.skeleton {
+  margin-top: 7px;
+  width: 50%;
+}
+.skeleton-small {
+  margin-top: 5px;
+  width: 80%;
+}
+.description {
+  margin-top: 5px;
+  width: 100%;
+}
+.tour-see-more {
+  color: gray;
+  text-decoration: underline;
+  font-size: small;
+}
+.tour-see-more:hover {
+  cursor: pointer;
+}
+.tour-guider-desc {
+  margin-top: 4px;
+  font-size: 19px;
+}
+.hire-me-card-btn {
+  background: #0091ea;
+  padding: 7px 30px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+.hire-me-card-btn:hover {
+  background: #0081d1;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.hire-me-card-btn:focus {
+  outline: 1px solid #0081d1;
+}

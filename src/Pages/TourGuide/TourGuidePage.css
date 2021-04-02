@@ -1,0 +1,39 @@
+.tour-guide-page-container {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: #001c84;
+}
+p {
+}
+.tour-guide-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  width: 87%;
+  margin: 10px 0 -15px 0;
+}
+.join-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.join-us p {
+  color: rgb(0, 153, 255);
+}
+.join-us p:hover {
+  cursor: pointer;
+}
+.tourGuideCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tour-guide-card {
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px auto;
+}

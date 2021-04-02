@@ -1,0 +1,94 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+}
+.under {
+  width: 100%;
+  background: #fff;
+}
+.hiddenGems {
+  width: 76%;
+  margin: 5% auto 1%;
+}
+.seemore {
+  color: rgb(184, 184, 184);
+  text-decoration: underline;
+}
+.seemore:hover {
+  color: #0091ea;
+}
+.gemCards {
+  margin-bottom: 50px;
+}
+.act {
+  margin: 0 0 5% 0;
+}
+.cities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+.cityHeader {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 50px;
+}
+.citysCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 76%;
+}
+.ant-carousel .slick-dots li {
+  background: #001c84;
+}
+.cityCarousel {
+  margin: 0 10%;
+}
+.teamCarousel {
+  margin: 2% 0;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  height: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: white;
+}
+.home-header-size {
+  color: #001c84;
+}
+
+.citysCard-responsive-600 {
+  display: none;
+  width: 80vw;
+}
+@media (max-width: 600px) {
+  .home-header-size {
+    font-size: 18px;
+  }
+  .seemore {
+    display: none;
+  }
+  .citysCard-responsive-600 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .citysCard {
+    display: none;
+  }
+}

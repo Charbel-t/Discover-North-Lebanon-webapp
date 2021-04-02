@@ -1,0 +1,10 @@
+.background {
+  background: #0091ea;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.textColor {
+  color: white;
+}

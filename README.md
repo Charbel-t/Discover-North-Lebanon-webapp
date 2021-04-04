@@ -1,17 +1,16 @@
 # Discover North Lebanon
 
-Discover North Lebanon is a web based application built with reactjs. It allows you to explore different cities and activities that can be done in north Lebanon.
+Discover North Lebanon is a web based application. It allows you to explore different cities and activities that can be done in north Lebanon.
 
-## Features
-
-- Search for an activity in a specific city
+## Features 
+- Search for an activity in a specific city 
 - Have detailed information about a city and an activity
-- Find the location of an activity on the map
-- Filter activities by type, city and price or by only outdoor
-- Email a tour guide to hire him/her
+- Find the location of an activity on the map 
+- Filter activities by type, city and price or by only outdoor 
+- Email a tour guide to hire him/her 
 - Supported by 2 languages Arabic and English
 
-## Demo
+## Demo 🌐
 
 To see the project go [here](https://discover-north-lebanon.netlify.app/)
 
@@ -22,8 +21,8 @@ To see the project go [here](https://discover-north-lebanon.netlify.app/)
 - [Mapbox](https://www.mapbox.com/) - To implement the map functionality 
 - [I18next](https://react.i18next.com/) - For the translation 
 
-## Installation
-
+## Installation 📕
+ 
 Clone the Github repository and use npm to install the dependencies
 
 ```
@@ -32,6 +31,8 @@ cd discover_the_north_web
 npm i
 npm start
 ```
+
+After installing the dependencies you need to create a free account with [Mapbox](https://www.mapbox.com/) to get your API access token and place it in Map.js file (ReactMapGL component)
 
 ## MIT License
 

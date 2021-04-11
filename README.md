@@ -26,7 +26,7 @@ To see the project go [here](https://discover-north-lebanon.netlify.app/)
 Clone the Github repository and use npm to install the dependencies
 
 ```
-git clone https://github.com/harkibit/discover-north-lebanon.git
+git clone https://github.com/Charbel-t/Discover-North-Lebanon-webapp.git
 cd discover_the_north_web
 npm i
 npm start
